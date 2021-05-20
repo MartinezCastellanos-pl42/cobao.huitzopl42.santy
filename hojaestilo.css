@@ -1,0 +1,113 @@
+   /*selectores comunes*/
+        body{
+            width:750 px; 
+            height: 750px; margin:auto;
+            background-color:floralwhite;                          
+         } 
+        
+        p{font-family: monospace;
+          text-align: center;
+        font-size: 40px;    
+        }
+        /*selectores de clase*/
+        
+        .Negro{
+            color:blanchedalmond;
+            font-family: fantasy;
+            font-size: 30px;
+            }
+        /*Selectores de id*/
+        #paraDiv{
+            height:80px;
+            background-color: brown;
+            color:whitesmoke;
+            font-size: 20px;
+            font-family: sans-serif;    
+            
+        }
+        /*Selectores de grupo*/
+         h2, h3{
+            font-family: black;
+            font-size: 15px;
+            color:black;
+            
+        }
+/*Selectores de id para div*/
+#fondoDiv{
+    background-image: url(imagenes/logo.jpg);
+    width: auto;
+    height: 200px;
+    background-position: top;
+    
+    
+}
+#fondoDiv2{
+    background-image: url(imagenes/fondo2.jpg);
+    width: auto;
+    height: 42px;
+    background-position: bottom;
+    color:aliceblue;
+    text-align: center;    
+}
+#menu{
+    background-color:dimgray;
+}
+        #menu ul{
+        list-style:none;
+        margin:0;
+        padding:0;
+}
+#menu ul li{
+    display:inline-block;
+   
+}
+#menu ul li a{
+    color:white;
+    text-decoration-color: none;
+    display:block;
+    padding: 10px  50px;
+ 
+}
+#menu ul li a:hover{
+    background-color:aquamarine;
+}
+.item-r{
+    float:left;
+}
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
